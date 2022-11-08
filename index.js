@@ -14,6 +14,6 @@ const nombre = 'leandro';
 
 const apellido = 'porcelli';
 
-nombreCompleto = `mi nombre es: ${nombre} ${apellido}`;
+const nombreCompleto = `mi nombre es: ${nombre} ${apellido}`;
 
 console.log(nombreCompleto);
