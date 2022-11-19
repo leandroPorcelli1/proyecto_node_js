@@ -1,18 +1,13 @@
-
-
-let ciudad = 'cambridge';
-
+let ciudad = "baradero";
 let num = 5;
-
-
 ciudad = num;
 
 console.log(ciudad);
 console.log(num);
 
-const nombre = 'leandro';
+const nombre = "leandro";
 
-const apellido = 'porcelli';
+const apellido = "porcelli";
 
 const nombreCompleto = `mi nombre es: ${nombre} ${apellido}`;
 
