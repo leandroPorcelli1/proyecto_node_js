@@ -21,9 +21,9 @@ getHeroeByIdAsinc(2)
   .then((heroe) => console.log(heroe))
   .catch((err) => console.warn(err));
 
-// getHeroeByIdAsinc(10)
-//   .then((heroe) => console.log(heroe))
-//   .catch((err) => console.warn(err));
+getHeroeByIdAsinc(10)
+  .then((heroe) => console.log(heroe))
+  .catch((err) => console.warn(err));
 
 //PUNTO2
 
