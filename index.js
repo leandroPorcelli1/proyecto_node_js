@@ -37,9 +37,12 @@ peticion
 //PUNTO3
 
 const getName = async () => {
-  const respuesta = await fetch("https://api.github.com/users/manishmshiva");
-  const data = await respuesta.json();
-  console.log(data.name);
+  try {
+    const respuesta = await fetch("https://api.github.com/users/manishmshiva");
+    const data = await respuesta.json();
+    console.log(name);
+  } catch (error) {
+    console.error("Se ha producido un error en la solicitud");
+  }
 };
-
 getName();
